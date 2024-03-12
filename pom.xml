@@ -33,9 +33,17 @@
       <version>${jettyVersion}</version>
     </dependency>
 
+    <dependency>
+        <groupId>junit</groupId>
+        <artifactId>junit</artifactId>
+        <version>4.13.2</version>
+        <scope>test</scope>
+    </dependency>
+
  </dependencies>
 
 <build>
+    <testSourceDirectory>${project.basedir}/test/unit/test</testSourceDirectory>
     <plugins>
         <plugin>
             <groupId>org.eclipse.jetty</groupId>
