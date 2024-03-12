@@ -3,7 +3,7 @@
     xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>org.springframework</groupId>
+    <groupId>org.uts.isd</groupId>
     <artifactId>isdlabs</artifactId>
     <packaging>war</packaging>
 
@@ -16,6 +16,7 @@
            https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-maven-plugin/
         -->
         <jettyVersion>9.4.12.v20180830</jettyVersion>
+        <jetty.http.port>8080</jetty.http.port>
     </properties>
 
  <dependencies>
