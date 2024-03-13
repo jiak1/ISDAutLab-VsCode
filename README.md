@@ -19,3 +19,5 @@ In the other terminal, just run the following & leave it open for as long as you
 `mvn jetty:run`
 
 Then, open a web browser & visit: `http://localhost:8080`
+
+To run unit tests: `mvn test`
