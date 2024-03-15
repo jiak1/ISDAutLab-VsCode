@@ -4,7 +4,7 @@ This repo contains the code for the labs in Jacks classes each week. This repo i
 
 Make sure you first install:
 
-- Java JDK 8 (https://www.oracle.com/au/java/technologies/javase/javase8-archive-downloads.html)
+- Java JDK (https://www.oracle.com/au/java/technologies/downloads/)
 - Maven (https://maven.apache.org/download.cgi) Select the **binary version** not Source
 
 To Run The Project:
