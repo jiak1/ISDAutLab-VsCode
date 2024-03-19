@@ -4,19 +4,12 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <link rel="stylesheet" href="css/layout.css">
+        <!--<link rel="stylesheet" href="css/layout.css">-->
         <script type="text/javascript" src="js/index.js"></script>
         <title>Home Page</title>
     </head>
     <body onload="startTime()" >
-        <h1>Hello World!</h1>
-        <% 
-            String name = "Jack";        
-        %>
-        <p>Tutor: <%= name%> </p>
-        <p>Random ID: <%= new Random().nextInt(999999) %></p>
-        <div id="clock" class="footer">
-            
-        </div>
+        <h1>Home Page</h1>
+        <a href="/register.jsp">Register an Account</a>
     </body>
 </html>
